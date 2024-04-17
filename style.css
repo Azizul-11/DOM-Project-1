@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+
+a {
+  font-size: 30px;
+  margin-top: 2vw;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.canvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas span {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin: 5px;
+  cursor: pointer;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9vw;
+  margin-bottom: 3vw;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vw;
+
+}
+#grey {
+  background-color: gray;
+}
+
+#white {
+  background-color: #fff;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#yellow {
+  background-color: yellow;
+}
